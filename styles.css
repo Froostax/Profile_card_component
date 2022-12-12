@@ -1,0 +1,57 @@
+body {
+  font-family: Kumbh Sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(25, 161, 174, 255);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+.main {
+  background-color: white;
+  height: 394px;
+  width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.down {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+.img1 {
+  border-radius: 50px;
+  margin-top: -52px;
+  border: white solid 5px;
+}
+.txt1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.age,
+h3 {
+  color: #6b7082;
+}
+.end {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-top: #e8e9ec solid 1px;
+}
+td {
+  color: #6b7082;
+  padding: 18px;
+}
+th {
+  font-weight: bold;
+  color: #2e3349;
+}
+table {
+  padding: 10px;
+}
